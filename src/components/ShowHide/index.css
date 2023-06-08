@@ -1,0 +1,60 @@
+/* Write your CSS here */
+
+.show-hide-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  font-family: 'roboto';
+}
+
+h1 {
+  color: #fff;
+  font-size: 35px;
+}
+
+.item-con {
+  margin-bottom: 50px;
+}
+
+.button {
+  height: 38px;
+  width: 180px;
+  border: 0;
+  border-radius: 10px;
+  color: #dd1264;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.show-hide-output {
+  background-color: #fddddb;
+  height: 100px;
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .show-hide-items-con {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+  }
+  .item-con {
+    height: 300px;
+    width: 550px;
+  }
+}
